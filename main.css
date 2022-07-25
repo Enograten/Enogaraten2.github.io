@@ -1,0 +1,435 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    vertical-align: middle;
+}
+body{
+    font-family: 'Roboto';
+    background-color: #fff;
+    color: #000;
+}
+.blockk{
+    margin-top: 55px;
+    margin-left: 55px;
+    position: absolute;
+}
+.logo img{
+    display: inline-block;
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+.design{
+    right: 5%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #193EE9;
+    color:#fff;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    margin-top: -100px;
+}
+.man{
+    background-image: url(/images/man.png);
+    background-size:cover;
+    background-position: center;
+}
+.Evelation{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    margin-top: 20em;
+    margin-bottom: 100px;
+}
+.center{
+    text-align: center;
+}
+.Explore{
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    color:#fff ;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 38px;
+    background-color: #193EE9;
+    margin-bottom: 450px;
+}
+.Explore:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.worlds{
+    margin-top: 120px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 36px;
+}
+.flavor{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 27px;
+}
+.taste{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color:#202727;
+}
+.taste:hover{
+    text-decoration: none;
+    color: #202727;
+}
+.circle{
+    text-align: cernter;
+    margin-bottom: 100px;
+}
+.Adaptogenic{
+    margin-top: 120px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+.Relieve{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.Ginger{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+.Reduces{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.Nourishes{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.blue{
+    background-image: url(/images/blue.png);
+    min-height: 488px;
+}
+.swear{
+    margin-top: 106px;
+    margin-bottom: 96px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    color: #14C5C4;
+}
+.partners1{
+    margin-left: 180px;
+    margin-right: 61px;
+}
+.partners2{
+    margin-right: 91px;
+}
+.partners3{
+    margin-right: 92px;
+}
+.partners4{
+    margin-bottom: 10px;
+    margin-right: 57px;
+}
+.worlds1{
+    margin-top: 220px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 36px;
+}
+.frame{
+    margin-top: 135px;
+}
+.woman{
+    margin-top: 95px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.improve{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #202727;
+}
+.improve:hover{
+    text-decoration: none;
+    color: #202727;
+}
+.adapt{
+    background-image: url(/images/adapt.png);
+    background-size: cover;
+    margin-top: 135px;
+    margin-bottom: 200px;
+    background-position: center;
+}
+.worldss{
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 36px;
+}
+.flavorr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 27px;
+}
+.tastee{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color:#202727;
+}
+.flover{
+    margin-left: 27px;
+}
+.flover2{
+    margin-left: 27px;
+    margin-right: 27px;
+}
+.flover_ul{
+    margin-top: 470px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.name_flover{
+    color: #202727;
+    margin-left: 30px;
+}
+.name_flover:hover{
+    text-decoration: none;
+    color: #202727;
+}
+.snickers{
+    background-image: url(/images/snickers.png);
+    margin-top: 119px;
+    background-size: cover;
+    margin-bottom: 160px;
+}
+.first{
+    margin-bottom: 9px;
+    margin-top: 412px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.02px;
+    color: #14C5C4;
+}
+.Casey{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.24px;
+    color: #202727;
+    margin-bottom: 80px;
+} 
+.collage{
+    padding: 0;
+    margin: 0;
+}
+.Power{
+    margin-top: 300px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02px;
+    color: #202727;
+} 
+.block .for_img {
+    width: 100%;
+    height: 100%
+}
+.block .for_text {
+    position: relative;
+    background-color: #fff;
+    max-width: 90%;
+    margin-left: auto;
+    margin-top: -100px;
+}
+.Your{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.02px;
+    color: #202727;
+    margin-bottom: 61px;
+}
+.Read{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #202727;
+}
+.Read:hover{
+    text-decoration: none;
+    color: #202727;
+}
+.How{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.02px;
+    color: #202727;
+    padding-top: 19px;
+    padding-left: 20px;
+    padding-right: 41px;
+}
+.Ever{
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #202727;
+    margin-bottom: 26px;
+}
+.Time{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.02px;
+    color: #202727;
+    margin-bottom: 21px;
+    padding-top: 19px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+.there{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #202727;
+    padding-left: 20px;
+}
+.Readd{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #202727;
+    padding-left: 20px;
+}
+.Readd:hover{
+    text-decoration: none;
+    color: #202727;
+}
+.Adaptogens{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.02px;
+    color: #202727;
+    padding-top: 19px;
+    padding-left: 20px;
+    padding-right: 79px;
+    margin-bottom: 21px;
+}
+.back{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #202727;
+    margin-bottom: 5px;
+}
+.Save{
+    margin-top: 22px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #202727;
+}
+.last{
+    margin-top: 210px;
+    margin-bottom: 40px;
+    min-width: 100%;  
+}
+
+.Scroll{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+    color: #14C5C4;
+}
+.Scrol{
+    background-image: url(/images/scroll.png);
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+.Scroll:hover{
+    text-decoration: none;
+    color: #14C5C4;
+}
+.bottom_nav{
+    text-align: center;
+}
+.circlee{
+    text-align: center;
+}
+.last_img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 225px;
+    padding: 0;
+}
